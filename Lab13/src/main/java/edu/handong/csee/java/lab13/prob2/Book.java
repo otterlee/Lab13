@@ -11,7 +11,7 @@ public class Book { //super class 'Book'
 		id = idcount; // and set id count which is increased number as id.
 	}
 	
-	public void show() {
+	public void show() {//method to print-out the information about book
 		System.out.println("<<BOOK>>"); //print-out category
 		System.out.println("Id : " + this.id); //print-out id number
 		System.out.println("Book Name : " + this.bookName);//print-out book name
