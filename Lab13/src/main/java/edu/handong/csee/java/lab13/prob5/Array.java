@@ -2,8 +2,8 @@ package edu.handong.csee.java.lab13.prob5;
 
 public class Array {//class dealing with array
 	public boolean equals(int m1[][], int m2[][]) { //method to comparing each element of matrices
-		int count= 0;//declare integer variable count and initate it 0
-		if (m1.length != m2.length) return false; //if each row is no equal, return false
+		int count= 0;//declare integer variable count and initiate it 0
+		if (m1.length != m2.length) return false; //if each row is not equal, return false
 		for(int i = 0 ; i < m1.length ; i++) {//loop row(of matrix1) times
 			for(int j = 0 ; j < m1[i].length ; j++) {//loop column(of matrix1) times
 				if(m1[i][j]!= m2[i][j]) count++;//if element's value is not equal, increase the count.
