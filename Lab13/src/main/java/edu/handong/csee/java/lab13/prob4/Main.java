@@ -1,7 +1,7 @@
 package edu.handong.csee.java.lab13.prob4;
 import java.util.Scanner;
 
-public class Main {
+public class Main {//main class is the class that actually create instance based on class Cat and Dog and print-out about their food
 	//main class which actually create instance and use interface.
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in); //instantiate Scanner as keyboard
