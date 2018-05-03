@@ -1,6 +1,6 @@
 package edu.handong.csee.java.lab13.prob6;
 
-public class Main {//Main class is class that actually create instance and print the convert result
+public class Main {//Main class is a class that actually creates instance and prints out the converted result
 
 	public static void main(String[] args) {
 		UpPoint p1 = new UpPoint(3,3); //create instance based on UpPoint class with parameter 3,3
